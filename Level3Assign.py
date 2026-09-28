@@ -14,7 +14,7 @@ def play_game():
         #Make sure the guess is within the valid range
         if Guess < 1 or Guess > 100:
           print("Please enter a number between 1 and 100.")
-          continue
+          continue 
 
         #Only valid guesses count
         Guesses += 1
