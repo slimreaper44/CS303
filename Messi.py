@@ -1,10 +1,17 @@
-numbers = {11, 25, -2, 7, 18}
+numbers = [20, 2, 7, 6, 20, 13, 6, 2, 7, 6, 20, 13, 6]
 
-for i in range(5):
-    print(numbers{i})
+for number in numbers:
+    if numbers.count(number) > 1:
+        print(number, numbers.count(number))
+
+
+# numbers = {11, 25, -2, 7, 18}
+
+# for i in range(5):
+#     print(numbers{i})
     
-for num in numbers:
-    print(num)
+# for num in numbers:
+#     print(num)
 
 
 
